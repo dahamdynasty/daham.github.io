@@ -1,0 +1,297 @@
+body {
+    /* background-color: #567292;*/
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans';
+}
+
+h2 {
+    font-family: poppins;
+    font-size: 30px;
+}
+
+body .sub-body {
+    padding: 0.5em 2em;
+}
+
+.S-one {
+    margin-top: 1in;
+}
+
+
+/*navigation bar*/
+
+header {
+    box-shadow: 1px 1px 10px grey;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 1in;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+}
+
+header nav {
+    text-align: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    padding: 15px 20px;
+}
+
+header nav ul li [target="_blank"] {
+    background-color: #06752E;
+    color: #fff;
+    border-radius: 3px;
+}
+
+
+/*navigation bar*/
+.S-one {
+    width: 100%;
+    height: 4in;
+    -moz-animation-name: slide;
+    -webkit-animation-name: slide;
+    -o-animation-name: slide;
+    animation-name: slide;
+    -moz-animation-duration: 30s;
+    -webkit-animation-duration: 30s;
+    -o-animation-duration: 30s;
+    animation-duration: 30s;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: cover, cover, cover;
+    background-position: center, center, center;
+    background-color: rgba(55, 49, 47, 0.5), rgba(55, 49, 47, 0.5), rgba(55, 49, 47, 0.5);
+}
+
+/*section one*/
+
+/*section two*/
+
+.s-two {
+    text-align: center;
+    background-color: #F4F6F4;
+    height: auto;
+}
+
+.s-two a {
+    background-color: #1BAE70;
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;
+    width: 80px;
+    margin: auto;
+}
+
+.S-two p {
+    color: #4E5652;
+}
+
+
+/*section two*/
+
+
+/*section three*/
+
+.S-three section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 25px;
+}
+
+.S-three section div.figure {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.S-three {
+    text-align: center;
+}
+
+.S-three p {
+    color: #4E5652;
+}
+
+
+/*section three*/
+
+
+/*section four*/
+
+.S-four {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #F4F6F4;
+}
+
+.S-four p {
+    color: #4E5652;
+}
+
+
+/*section four*/
+
+
+/*section five*/
+
+.S-five h2,
+.S-five p {
+    text-align: center;
+}
+
+.S-five a[title="Involved"] {
+    background-color: #1BAE70;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.S-five a[title="Donate"] {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.S-five {
+    background-color: #0A9060;
+    color: #fff;
+    height: 3in;
+}
+
+
+/*section five*/
+
+
+/*section six*/
+
+.S-six {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.S-six a {
+    background-color: #1BAE70;
+    color: #fff;
+    border-radius: 3px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+
+/*section six*/
+
+
+/*section seven*/
+
+.S-seven {
+    background-color: #F4F6F4;
+}
+
+.S-seven h2 {
+    text-align: center;
+}
+
+.S-seven article {
+    display: flex;
+}
+
+.S-seven article img {
+    margin: auto;
+}
+
+
+/*section seven*/
+
+
+/*section eight*/
+
+.S-eight {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+
+
+/*section eight*/
+
+
+/*section nine*/
+
+.S-nine {
+    background-color: #393939;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 30px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+
+/*section nine*/
+
+.main-body {
+    margin-bottom: 0;
+}
+
+
+/*footer*/
+
+footer {
+    margin-top: 0;
+    background-color: #1BAE70;
+    color: #fff;
+    display: block;
+    padding: 20px;
+}
+
+
+/*footer*/
+
+/*animation*/
+
+@keyframes slide {
+    0% {
+        background-image: url(photo3.jpg);
+    }
+
+    25% {
+        background-image: url(photo4.jpg);
+    }
+
+    50% {
+        background-image: url(photo6.jpg);
+    }
+
+    75% {
+        background-image: url(photo1.jpg);
+    }
+
+    100% {
+        background-image: url(photo2.jpg);
+    }
+}
+
+
+/*animation*/
